@@ -3,7 +3,7 @@ body {
 font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 100vh;  
     display: flex;
     flex-direction: column;
     background: #000 url("https://images.pexels.com/photos/7697712/pexels-photo-7697712.jpeg") center center / cover no-repeat fixed;

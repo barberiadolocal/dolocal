@@ -9,7 +9,7 @@
   "description": "Servicios de barbería varonil y cuidado personal.",
   "icons": [
     {
-      "src": "img/icon_app.png",
+      "src": "img/icon_app.png", 
       "sizes": "192x192",
       "type": "image/png"
     },
