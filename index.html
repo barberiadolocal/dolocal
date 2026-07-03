@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Dolocal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <h1>Barber Dolocal</h1>
+    <nav></nav>
+       
+      
+    <section id="corte-1" class="fade-in">
+        <h2>Corte varonil.</h2> 
+        <p>Horario de atención: 8:00 am a 6:00 pm</p><br><br><br>
+        <p>Corte Varonil C$ 90.</p>
+        <img src="img/corte Varonil con 1 y 2.png" alt="Corte Varonil">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte1" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte1" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="1" data-name="Corte Varonil" data-price="90">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-2" class="fade-in">
+        <h2>Corte varonil.</h2>
+        <p>Corte Varonil Sombreado.</p>
+        <img src="img/varonil con cero.jpg" alt="Sombreado">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte2" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte2" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte2" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte2" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte2" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="2" data-name="Corte Varonil Sombreado" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-3" class="fade-in">
+        <h2>Corte Mullet.</h2>
+        <p>Corte Mullet.</p>
+        <img src="img/mullet.png" alt="Mullet">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte3" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte3" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte3" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte3" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte3" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="3" data-name="Corte Mullet" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-4" class="fade-in">
+        <h2>Corte Mohicano.</h2>
+        <p>Corte Mohicano.</p>
+        <img src="img/mohicano.png" alt="Mohicano">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte4" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte4" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte4" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte4" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte4" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="4" data-name="Corte Mohicano" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-5" class="fade-in">
+        <h2>Corte Blower.</h2>
+        <p>Corte Blower.</p>
+        <img src="img/blower.jpg" alt="Blower">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte5" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte5" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte5" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte5" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte5" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="5" data-name="Corte Blower" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-6" class="fade-in">
+        <h2>Corte Buzz cut.</h2>
+        <p>Corte Buzz cut.</p>
+        <img src="img/buzz cut.png" alt="Buzz cut">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte6" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte6" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte6" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte6" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte6" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="6" data-name="Corte Buzz Cut" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-7" class="fade-in">
+        <h2>Corte pompadur.</h2>
+        <p>Corte Pompadur.</p>
+        <img src="img/pompadur.png" alt="Pompadur">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte7" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte7" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte7" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte7" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte7" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="7" data-name="Corte Pompadur" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-8" class="fade-in">
+        <h2>Corte sombreado bajo.</h2>
+        <p>Corte Sombreado Bajo.</p>
+        <img src="img/low fade.jpg" alt="Low Fade">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte8" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte8" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte8" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte8" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte8" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="8" data-name="Corte Sombreado Bajo" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-9" class="fade-in">
+        <h2>Corte Sombreado medio.</h2>
+        <p>Corte Sombreado medio.</p>
+        <img src="img/mid fade.jpg" alt="Mid Fade">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte9" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte9" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte9" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte9" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte9" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="9" data-name="Corte Sombreado Medio" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-10" class="fade-in">
+        <h2>Corte Sombreado alto.</h2>
+        <p>Corte Sombreado Alto.</p>
+        <img src="img/high fade.png" alt="High Fade">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte10" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte10" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+                <hr>
+                <label><input type="radio" name="opt-corte10" value="Con Cero (C$ 100)" data-price="100" > Con Cero (C$ 100)</label>
+                <label><input type="radio" name="opt-corte10" value="Con Navaja (C$ 120)" data-price="120"> Con Navaja (C$ 120)</label>
+                <label><input type="radio" name="opt-corte10" value="Destroncado (C$ 140)" data-price="140"> Destroncado (C$ 140)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="10" data-name="Corte Sombreado Alto" data-price="100">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-11" class="fade-in">
+        <h2>Barba.</h2>
+        <p>Barba (C$ 50).</p>
+        <img src="img/barba.png" alt="Barba">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte11" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte11" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="11" data-name="Barba" data-price="50">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="corte-12" class="fade-in">
+        <h2>Cejas.</h2>
+        <p>Cejas (C$ 40).</p>
+        <img src="img/cejas.png" alt="Cejas">
+        <div class="order">
+            <label>Cantidad: <input type="number" class="cant-servicio" value="1" min="1"></label><br>
+            <div>
+                <label><input type="radio" name="dom-corte12" value="Con Domicilio (+C$ 40)" data-extra="40"> Con Domicilio (C$ 40)</label>
+                <label><input type="radio" name="dom-corte12" value="Sin Domicilio" data-extra="0" > Sin Domicilio (C$ 0)</label>
+            </div>
+            <br>
+            <button class="btn-add" data-id="12" data-name="Cejas" data-price="40">Agregar al Carrito</button>
+        </div>
+    </section>
+
+    <section id="datos-reserva" class="fade-in">
+        <h2>Datos de la Reserva</h2>
+        <div class="order">
+            <label for="cl-nombre">Nombre:</label>
+            <input type="text" id="cl-nombre" placeholder="Ingresa tu nombre." required><br>
+             
+            <label for="cl-direccion">Dirección:</label>
+            <input type="text" id="cl-direccion" placeholder="Ingresa tu Dirección:" required><br>
+             
+            <label for="cl-dia">Selecciona tu día:</label>
+            <select id="cl-dia" required>
+                <option value="">Selecciona tu Día.</option>
+                <option value="Lunes">Lunes.</option>
+                <option value="Martes">Martes.</option>
+                <option value="Miércoles">Miércoles.</option>               
+                <option value="Jueves">Jueves.</option>
+                <option value="Viernes">Viernes.</option>
+                <option value="Sábado">Sábado.</option>
+            </select><br>
+
+<label for="cl-hora">Hora:</label>
+<input type="time" id="cl-hora" min="08:00" max="18:00" required><br>
+        </div>
+
+        <hr style="margin: 20px 0; border: 1px dashed #ccc;">
+
+        <h2>Tu Pedido (Carrito)</h2>
+        <div id="lista-carrito" style="text-align: left; margin-bottom: 15px;">
+            <p style="text-align: center; color: #888;">El carrito está vacío.</p>
+        </div>
+        <h3 id="total-carrito">Total: C$ 0</h3>
+    </section>
+
+    <footer>
+        <p>&copy; Fundada en el año 2025.</p>
+        <button id="sendWhatsapp">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" style="width:60px; height:60px; display:block; margin:0 auto 10px auto;">
+            Enviar por Whatsapp
+        </button>
+    </footer>
+</body>
+</html>
